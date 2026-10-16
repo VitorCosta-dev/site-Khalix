@@ -33,18 +33,6 @@ python -m http.server 8000
 
 Depois acesse `http://localhost:8000`.
 
-## Como subir no GitHub
-
-Crie ou abra seu repositório e envie **o conteúdo da pasta `cazo-khalix`**, mantendo `index.html`, `styles.css`, `app.js` e `assets` juntos na raiz. Não envie apenas o ZIP se quiser navegar pelo código no GitHub.
-
-Se preferir usar o terminal, dentro da pasta extraída:
-
-```bash
-git init
-git add .
-git commit -m "Adiciona website Cazo Khalix"
-git branch -M main
-```
 
 Depois conecte o endereço do seu repositório e faça o primeiro push:
 
