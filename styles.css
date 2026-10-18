@@ -76,3 +76,23 @@ dialog{padding:0;border:0;background:var(--paper);color:var(--ink);width:min(860
 @media(max-width:900px){.final-cta{grid-template-columns:minmax(0,1fr) 104px;grid-template-areas:"copy mascot" "action mascot";gap:22px 24px}.signup-mascot{width:104px}}
 @media(max-width:600px){.contact-details-heading{gap:16px;margin-bottom:25px}.contact-mascot{width:80px}.final-cta{gap:22px 20px}}
 @media(max-width:480px){.final-cta{grid-template-columns:minmax(0,1fr) 68px;grid-template-areas:"copy copy" "action mascot";padding:28px 24px;gap:20px 12px}.signup-mascot{width:68px}.final-cta>.button{font-size:10px;padding:13px 12px;gap:10px;max-width:100%;white-space:normal;text-align:left}.final-cta>.button>span{flex-shrink:0}.final-cta .eyebrow{line-height:1.7}}
+
+/* Aumenta o mascote do contato no celular */
+@media (max-width: 600px) {
+  .contact-mascot {
+    width: 180px;
+  }
+}
+
+/* Mantém espaço para o texto em telas menores */
+@media (max-width: 360px) {
+  .contact-mascot {
+    width: 100px;
+  }
+}
+
+@media (min-width: 701px) {
+  .contact-mascot {
+    width: 260px;
+  }
+}
